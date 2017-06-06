@@ -168,14 +168,5 @@ export PATH JAVA_HOME
 cd /usr/share/java/
  -fs mysql-connector-java-5.1.42-bin.jar mysql-connector-java.jar
  
-vi /etc/my.cnf
 
-[mysqld]
-log-bin=mysql-bin
-server-id=1 # or 2
-bind-address=0.0.0.0
-
-
-
-GRANT REPLICATION SLAVE ON *.* TO 'user'@'maws2' IDENTIFIED BY 'password';
  
