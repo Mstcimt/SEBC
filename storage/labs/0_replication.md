@@ -68,3 +68,11 @@ hadoop distcp hdfs://maws6:8020/user/ec2-user/mstcimt hdfs://maws6:8020/user/ec2
                 BYTESCOPIED=50000000
                 BYTESEXPECTED=50000000
                 COPY=4
+				
+				
+[ec2-user@ip-172-31-29-176 ~]$ hdfs dfs -mkdir backup
+[ec2-user@ip-172-31-29-176 ~]$ hdfs dfs -ls /user/ec2-user
+
+Using BRD see picture BRD_Backup_test.PN
+
+
