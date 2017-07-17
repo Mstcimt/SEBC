@@ -1,3 +1,4 @@
+```
 root@ip-172-31-8-234 ~]# mysql -u root -pxxxx
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 2
@@ -12,15 +13,17 @@ owners.
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql>
-
-
+```
+```
 [root@ip-172-31-8-234 ~]# mysql --version
 mysql  Ver 14.14 Distrib 5.5.56, for Linux (x86_64) using readline 5.1
-
-
+```
+```
 Hostname AWS
 54.93.68.2 ec2-54-93-68-2.eu-central-1.compute.amazonaws.com
 Internal
+```
+```
 [root@ip-172-31-8-234 ~]# ip a
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
@@ -34,10 +37,10 @@ Internal
        valid_lft 3016sec preferred_lft 3016sec
     inet6 fe80::4b2:7aff:fe66:63b7/64 scope link
        valid_lft forever preferred_lft forever
-
+```
 	   
 
-
+```
 mysql> show databases;
 +--------------------+
 | Database           |
@@ -54,7 +57,4 @@ mysql> show databases;
 | test               |
 +--------------------+
 10 rows in set (0.00 sec)
-
-
-	
-	
+```	
